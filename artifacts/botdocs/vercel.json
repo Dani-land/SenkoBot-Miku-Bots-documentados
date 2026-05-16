@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "pnpm --filter @workspace/botdocs run build",
+  "outputDirectory": "artifacts/botdocs/dist/public",
+  "installCommand": "pnpm install"
+}
